@@ -43,6 +43,7 @@
 * diverse minor styling
 * upload first test page on github
 * introductive video to show the page
+* fix display of company logos on mobile and space evenly
 
 TODO: 
 * make a royalty free high quality acrolib logo with a book and add as third icon?
