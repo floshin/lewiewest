@@ -1,0 +1,10 @@
+TODO for Lewie:
+
+* Text about yourself for the "About" Page.
+* Text about the Coaching for the "Coaching" Page.
+* Domain registration
+
+* Backup of the YouTube Videos for the Website available?
+  If not -> I download all the Videos from YouTube manually?
+  @myself: In case anything is deleted. PeerTube as alternative.
+  

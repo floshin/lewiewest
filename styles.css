@@ -1,0 +1,498 @@
+/* (c) 2022 flosha  *
+ * https://flosh.in */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  background-color: #000;
+  background-image: url("img/bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: rgba(255 255 255 / 87%); /* 87% white */
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.content {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* for non-scroll-menu:
+   * delete background;
+   * delete position;
+   * delete top;
+   * change margin in main;
+*/
+.headernav {
+  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255,0,0,0));
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row nowrap;
+}
+
+header {
+  margin: 1em 2em;
+  /* border: 1px solid grey; */
+  height: 160px;
+}
+
+header a {
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+}
+
+header a:hover {
+  padding: 0;
+}
+
+header h1 {
+  margin: 0.5em;
+}
+
+/* rather make a new div and do it here div h2 */
+.welcome {
+  font-size: 35px;
+  /*margin: 2em;*/ /*margin for non-fixed-menu*/
+  margin: 6em 2em 2em;
+}
+
+/* rather make a new div and do it here div p */
+.secondary {
+  font-size: 21px;
+  line-height: 1.5em;
+}
+
+
+.links {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0 1em 6em;
+  /*z-index: 9;*/
+}
+
+.links img {
+  padding-right: 2em;
+  max-height: 100px;
+}
+
+main {
+  /* position: relative; */
+  max-width: 800px;
+  /*margin: 1em 2em 4em;*/ /* margin value for non-fixed-navi*/
+  margin: 10em 2em 4em;
+  padding: 2em 2em 2em;
+  background-color: rgba(18 18 18 / 87%); 
+  /*z-index: 10;*/
+}
+
+main p {
+  padding: 1em 0 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+main a, main a:visited {
+  color: #3d9b9d;
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+  outline-offset: 2px;
+
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+.lewie {
+  float: left;
+  max-width: 300px;
+  padding-right: 2em;
+}
+
+/* remove if open questions solved or change */
+em {
+  font-style: normal;
+  color: #ba6070;
+}
+
+
+nav {
+  margin: 1.5em 0;
+  min-width: 500px;
+}
+
+nav a {
+  color: white;
+  padding: 1em;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.beyond {
+  padding: 0.7em 0;
+  margin: -1em 2em;
+  position: absolute;
+  right: 0;
+  border: 1px solid grey;
+}
+
+.beyond:hover {
+  background-color: white;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+.beyond a {
+  padding: 0.7em 1.5em;
+}
+
+.beyond a:hover {
+  background-color: inherit;
+  color: black;
+}
+
+
+/* style of the videos */
+iframe {
+  margin: 1em 0 2em;
+  width: 100%;
+}
+
+/* style of the title video */
+.latestvideo {
+  max-width: 650px;
+  margin: 0.5em 3em 2em;
+  border: 2px solid rgba(255 255 255 / 80%);
+}
+
+/* footer */
+footer {
+  background: linear-gradient(to top, rgba(0,0,0,1), rgba(255,0,0,0));
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  /*z-index: 11;*/
+}
+
+/* social icons */
+footer img {
+  max-height: 2em;
+  margin-right: 1em;
+  margin-bottom: -3em;
+  padding: 0.5em;
+}
+
+/* TODO: Combine with other link images by a img?
+/* transparency hover for social icons */
+footer img:hover, .links img:hover {
+  opacity: 0.5;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.copyright {
+  margin: 1em 2.5em;
+}
+
+/* TODO: social icons not pure white but like the font? */
+.social {
+  margin-right: 1em;
+}
+
+
+/* Only used for heading;
+  TODO Welcome message can be removed when
+  doing header h1 and normal h1 instead!*/
+h1 {
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  font-size: 18px;
+  letter-spacing: 0.2em;
+
+  margin: 1em 0 1em;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 1em 0 1em;
+}
+
+.videos h3 {
+  text-align: center;
+  font-size: 15px;
+  /*font-weight: normal;
+  color: #ba6070;*/
+  margin: 1em 0;
+}
+
+
+  .test {
+    margin-top: 3em;
+    color: #ad5e44;
+  }
+
+  /*unused*/
+pre {
+  font-size: 14px;
+  margin-left: -3em;
+  color: #c79d74;
+}
+
+/* link style */
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+/*used?*/
+.profile li {
+  padding-bottom: 0.5em;
+}
+
+img { max-width: 100%; }
+
+
+.gallery {
+	max-width: 1000px;
+	min-width: 400px;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+
+/* which colour/effect/deco for inline links? */
+a {
+  text-decoration: none;
+  outline-offset: 2px;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+a:hover { color: #cab8a5; }
+
+a:visited { color: inherit; }
+
+
+@media (max-width: 1200px) {
+  /* change link images on mobile */
+  .links {
+    display: block;
+    position: relative;
+    margin: 2em auto 5em;
+    width: 70%;
+  }
+  
+  .links img {
+    padding-right: 2em;
+    max-height: 100px;
+  }
+
+}
+
+::selection {
+  background: grey;
+}
+
+#menu-toggle,
+label[for="menu-toggle"]  {
+  display: none;
+}
+
+@media (max-width: 800px) {
+
+  /* add mobile menu */
+  label[for="menu-toggle"] {
+    display: block;
+    position: absolute;
+    right: 0;
+    margin-right: 1em;
+    color: white;
+    font-size: 42px;
+    font-weight: 500;
+    /*border: 1px solid;*/
+    width: 70px;
+    user-select: none;
+    /*margin-left: calc(50vw - 60px);*/
+    cursor: pointer;
+    padding-bottom: 2px;
+    padding-left: 0.7em;
+    
+    top: 25px;
+    z-index: 21;
+    /*background: #000000e0;*/
+  }
+
+  label:hover[for="menu-toggle"] {
+    /*color: black;*/
+    /*background-color: white;*/
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+  }
+
+  label[for="menu-toggle"]::selection {
+    background-color: transparent;
+    color: inherit;
+  }
+
+  label[for="menu-toggle"] > .menu-icon {
+    font-size: 150%;
+    top: 3px;
+  }
+
+  #menu-toggle:not(:checked) ~ *:not(label[for="menu-toggle"]) {
+    display: none;
+  }
+
+  #menu-toggle:checked ~ label[for="menu-toggle"]{
+    margin-bottom: 81px;
+  }
+
+  .profile {
+    margin: 0 auto;
+  }
+
+  main {
+    margin: 0;
+    padding: 16em 2em 2em;
+    max-width: 800px;
+    background-color: rgba(18 18 18 / 50%); 
+  }
+
+  main img {
+    width: 100%;
+  }
+
+  .lewie {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+  }
+
+
+  .videos {
+    padding: 12em 0px 0;
+  }
+
+  .videos p {
+    padding: 0 1.5em 0;
+    font-size: 14px;
+  }
+
+  nav {
+    margin: 0 auto 2em;
+    padding: 1em 2em;
+    width: 100%;
+    font-size: 25px;
+    position: fixed;
+    background-color: rgba(18 18 18 / 87%)
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  nav li {
+    line-height: 3em;
+  }
+
+  nav a:hover {
+    background-color: inherit;
+    color: inherit;
+  }
+
+  .beyond {
+    position: inherit;
+  }
+
+  nav a {
+    font-weight: bold;
+  }
+
+  .beyond {
+    display: none;
+    /*padding: 0;
+    margin: 1em 0em;
+    max-width: 175px;*/
+  }
+
+  .beyond:hover {
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+  }
+
+  .beyond a {
+    font-weight: bold;
+    padding: 0.7em 1.5em;
+    border-radius: 0.5em;
+  }
+
+  .welcome {
+    margin: 8em 1em 1em;
+  }
+
+  /* reposition title video for mobile */
+  .latestvideo {
+    margin: 0.5em 0 2em;
+    width: 100%;
+    border: none;
+  }
+
+  /* change link images on mobile */
+  .links {
+    margin: 3em 2em 2em;
+    width: auto;
+  }
+
+  /* footer */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 12px;
+    position: relative;
+    bottom: 0;
+  }
+
+}

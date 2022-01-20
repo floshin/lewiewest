@@ -1,0 +1,49 @@
++===========+
+| Changelog |
++===========+
+
+[flosha] 31.12.21 ~11 hours
+* Basic main page html
+* Basic stylesheet
+* add subpages (about/contact/video/gallery/coaching)
+* add Lewie portrait from GOM website
+* add diverse photographies:
+  * Darcy Grant: The Pulse
+  * Carnival Cinema: FOLD, Out of Chaos, Backbone
+* add GOM & CC logo, make GOM logo transparent
+* add social svgs (instagram & youtube)
+* add Backbone.pdf & backbone.txt
+* add interview list, linklist & quotes
+* add background image from FOLD
+* add placeholder texts and descriptions
+* add hover effects for text & image links
+* include all public yt videos 
+  with privacy-enhanced mode
+* add "acrolib" button
+
+[flosha] 01.01.22 ~3 hours
+* add hover effect for header/title
+* include pure CSS mobile menu
+
+[flosha] 02.01.22 
+* Include Roboto font
+
+[flosha] 08.01.22 ~3 hours
+* Improved the responsiveness / the mobile page:
+  * iframes (embedded videos) and images are now filling
+  * footer & company links are no more sticky, but relative
+* adjusted various margins/paddings to finalise the layout
+* fixed diverse minor issues
+
+[flosha] 20.01.22 ~3 hours
+* Add fading shadow background to header & footer
+* Make header fixed too 
+* Fix title margins in the video section
+* Company logos float now at 1200px already
+* diverse minor styling
+* upload first test page on github
+* introductive video to show the page
+
+TODO: 
+* make a royalty free high quality acrolib logo with a book and add as third icon?
+* or just let it appear there and hide the other desktop one with the company logo switch
