@@ -7,6 +7,7 @@
 * Providing an email you want to display in public (or instagram only?)
 * Registration of a domain like lewiewest.com.au, preferably at [INWX.de](https://www.inwx.de/en)
 * Providing permission to use photos by Darcy/Carnival Cinema etc. 
+* Additional testimonials if you think of some students you would like to be there?
 * Telling me which photos should be in the Gallery and sending me photos  
   if there should be anything that I do not have and that you would like to be there  
   * I then add and order them, maybe like: Act XY (date: year(s)))
