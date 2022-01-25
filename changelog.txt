@@ -45,6 +45,18 @@
 * introductive video to show the page
 * fix display of company logos on mobile and space evenly
 
-TODO: 
-* make a royalty free high quality acrolib logo with a book and add as third icon?
-* or just let it appear there and hide the other desktop one with the company logo switch
+[flosha] 25.01.22 ~7 hours
+* Add new text (+ links) for the About section
+* Minor styling improvements regarding the text layout (gaps)
+* Removed the "inofficial test page" heading
+* Add new coaching text with some adjustments
+* Add short student description and student image for myself
+* Reduced font-size of testimonials to put focus on the coaching text 
+* Added missing contact informations
+* The 'reaching out' photo on the contact page floats now on desktop
+  the subpage is now smaller and the information visible directly
+* Created new header for the coaching subpage from a screenshot
+* Created image links for the differet gallery sections/acts
+* Gallery Archive layout with image links to the Galleries
+* Galleries for The Pulse, Backbone, Out of Chaos & Fold
+* Update changelog and README for Lewie + video update
