@@ -479,10 +479,10 @@ label[for="menu-toggle"]  {
   main img { width: 100%; }
 
   /* make gallery previews bigger */
-  .archive { padding: 16em 0.5em 3.5em; }
+  .archive { padding: 16em 0.5em 2em; }
 
   /* remove gallery border on mobile */
-  .gallery { padding: 16em 0 3.5em; }
+  .gallery { padding: 16em 0 2em; }
 
   .lewie, .reachout, .teaching {
     float: none;
