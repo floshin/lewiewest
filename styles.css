@@ -475,9 +475,14 @@ label[for="menu-toggle"]  {
     background-color: rgba(18 18 18 / 50%); 
   }
 
-  main img {
-    width: 100%;
-  }
+  /* scale subpage images on mobile */
+  main img { width: 100%; }
+
+  /* make gallery previews bigger */
+  .archive { padding: 16em 0.5em 3.5em; }
+
+  /* remove gallery border on mobile */
+  .gallery { padding: 16em 0 3.5em; }
 
   .lewie, .reachout, .teaching {
     float: none;
