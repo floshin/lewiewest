@@ -60,3 +60,8 @@
 * Gallery Archive layout with image links to the Galleries
 * Galleries for The Pulse, Backbone, Out of Chaos & Fold
 * Update changelog and README for Lewie + video update
+
+[flosha] 27.01.22 ~1 hour
+* Add YouTube to contact, adjust header size accordingly
+* Adjust my testimonial text once again 
+* implemented Lewies coaching picture for comparison
