@@ -65,3 +65,7 @@
 * Add YouTube to contact, adjust header size accordingly
 * Adjust my testimonial text once again 
 * implemented Lewies coaching picture for comparison
+
+[flosha] 31.01.22 ~30min
+* Set DNS records, CNAME, activate https
+* updated coaching text
