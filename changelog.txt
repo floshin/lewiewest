@@ -66,6 +66,10 @@
 * Adjust my testimonial text once again 
 * implemented Lewies coaching picture for comparison
 
-[flosha] 31.01.22 ~30min
-* Set DNS records, CNAME, activate https
+[flosha] 31.01.22 ~1,5 hours
+* Domain setup: DNS records, CNAME, activate https
 * updated coaching text
+* fix outdated relative links after domain setup
+* implement pure css solution for iframe scaling 
+  while constantly keeping a 16:9 aspect ratio
+*
