@@ -11,6 +11,9 @@ Lewie is an australian generalist acrobat, internationally known for his creativ
 * remaining galleries
 * gallery descriptions
 * code cleaning/ordering
-* backup of youTube videos
+* update website preview img
+* style the scroll-bar
+* add effect to mobile menu?
+* backup of youtube videos
 * image link to wearerooke?
 * acrolib logo creation?
