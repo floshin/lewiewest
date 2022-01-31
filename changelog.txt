@@ -66,10 +66,23 @@
 * Adjust my testimonial text once again 
 * implemented Lewies coaching picture for comparison
 
-[flosha] 31.01.22 ~1,5 hours
+[flosha] 31.01.22 ~6 hours
 * Domain setup: DNS records, CNAME, activate https
 * updated coaching text
 * fix outdated relative links after domain setup
 * implement pure css solution for iframe scaling 
   while constantly keeping a 16:9 aspect ratio
-*
+* renamed "Gallery" to "Photos"
+* added two addition testimonial texts & photos
+  * modified the photos (greyscale, size, contrast etc.)
+  * adjusted the testimonials styling (h3 border etc.)
+* New "third" solution for coaching page combining two approaches
+  in form of an online/in-person differentiation with both images
+* changed styling of videos (h3 border, title vs. date etc.)
+* filled press with all available bits + styling it
+* Photo updates:
+  * Added the 3 pulse photos from Carnival Cinema
+  * Added the 2 Backbone photos from Darcy 
+  * Added new Out of Chaos category for the 9 Rehearsal photos 
+  * upload of all the remaining photo albums
+* video updates of todays changes
