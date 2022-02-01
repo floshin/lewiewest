@@ -92,3 +92,6 @@
 * fixed false layering of header because of the new absolute 
   positioning of headings/videos by higher z-index
 * styling the scroll-bar
+* added missing company links and footer to press page 
+* harmonised paddings of main on desktop 
+
