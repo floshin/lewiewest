@@ -86,3 +86,9 @@
   * Added new Out of Chaos category for the 9 Rehearsal photos 
   * upload of all the remaining photo albums
 * video updates of todays changes
+
+[flosha] 01.02.22 ~1 hour
+* included all gallery descriptions to the html documents
+* fixed false layering of header because of the new absolute 
+  positioning of headings/videos by higher z-index
+* styling the scroll-bar

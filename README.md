@@ -7,12 +7,9 @@ Lewie is an australian generalist acrobat, internationally known for his creativ
 
 
 ## TODO @ Florian
-* h2 heading bugfix
 * remaining galleries
-* gallery descriptions
 * code cleaning/ordering
 * update website preview img
-* style the scroll-bar
 * add effect to mobile menu?
 * backup of youtube videos
 * image link to wearerooke?
