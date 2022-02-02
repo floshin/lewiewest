@@ -95,3 +95,40 @@
 * added missing company links and footer to press page 
 * harmonised paddings of main on desktop 
 
+[flosha] 02.02.22 ~6 hours 
+* Set 'Skill Reel-ing' as title page video
+* Created new thumbnail specifically for Skill Reel-ing 
+* Simplified the ROOKE logo and made transparent version
+* Added ROOKE as third company logo and adjusted styling
+* Added additional testimonial and modified the picture 
+* changed coaching title text 
+* improved/fixed styling of gallery heading and text
+* added additional FOLD photo
+* added nine additional OCC photos (four of them to /Rehearsal)
+* added eleven additional THE PULSE photos 
+* added all remaining galleries: 
+  * Circa - C!RCA
+  * Misc - C!RCA 
+  * Cirque de Demain 2013
+  * Coaching Impressions 
+  * Jessica Connell
+  * Rooke 
+  * Sergio Parra
+  * Straps
+* Created new gallery selection photos for the archive;
+  added all the new galleries to the gallery selection
+* Reduce width of mobile menu appearance
+* Display Acrolib button on mobile menu too 
+* The menu button now makes a role when clicking. :)
+
+
+TODO:
+* Fix Press bug 
+* fix padding on mobile 
+* make sure company logos look good on mobile;
+  if not possible otherwise, make simple grid or flexbox 
+* fix contact problem: padding ignores image height
+* backbone gallery behind the scenes video doesnt work;
+   maybe add carnival cinemas youtube videos. 
+* make two-fold grid out of gallery to let it scale 
+  inbetween desktop and mobile menu 

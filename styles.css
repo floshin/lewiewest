@@ -103,7 +103,7 @@ header h1 {
 
 .links img {
   padding-right: 2em;
-  max-height: 100px;
+  max-height: 80px;
 }
 
 main {
@@ -236,10 +236,18 @@ blockquote {
   padding: 0.5em 1em 1em 0em;
 }
 
-/* remove if open questions solved or change */
-em {
-  font-style: normal;
-  color: #ba6070;
+/* emphasized text like show names */
+em { 
+  font-style: normal; 
+  text-transform: uppercase;  
+  font-size: 14px;
+  padding: 0.1em 0.4em;
+  background-color: rgba(255 255 255 / 50%); 
+  color: black;
+}
+
+h3 > em {
+  background-color: transparent;
 }
 
 
@@ -453,6 +461,7 @@ img { max-width: 100%; }
 }
 
 .archive ul {
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -483,10 +492,23 @@ img { max-width: 100%; }
   transition: .5s ease;
 }
 
-.gallery { max-width: 1050px; }
-.gallery h2 { text-align: center; }
+.gallery { 
+  max-width: 1050px; 
+  text-align: center; 
+}
+
+.gallery h2 { 
+  display: inline-block;
+  border: 1px solid rgba(255 255 255 / 60%);
+  font-size: 16px;
+  font-weight: normal;
+  padding: 1em;
+  margin: 0 1.5em 1.5em;
+}
+
 .gallery h3 { text-align: center; }
 .gallery img { width: 100%; }
+.gallery p { padding: 0 1.5em 1.5em; text-align: left; }
 
 
 /* which colour/effect/deco for inline links? */
@@ -499,13 +521,11 @@ a {
   -o-transition: all 0.3s ease-out;
 }
 
-
-
 a:visited { color: inherit; }
 
+@media (max-width: 1700px) {
 
-@media (max-width: 1200px) {
-  /* change link images on mobile */
+  /* reorder company logos on mobile */
   .links {
     position: relative;
     display: flex;
@@ -516,24 +536,10 @@ a:visited { color: inherit; }
   
   .links img {
     padding: 0;
-    max-height: 100px;
+    max-height: 80px;
   }
-
-  /* to not let the acrolib button overlap the navi */
-  .beyond {
-    display: none;
-  }
-
-  /* keep video in 16:9 ratio while change to 80% total page width */
-  .titlevideoscaler {
-    position: relative;
-    width: 90%;
-    height: 0;
-    padding-bottom: 50.625%;
-    margin: 0.5em auto 5em;
-  }
-
 }
+
 
 ::selection {
   background: grey;
@@ -544,8 +550,8 @@ label[for="menu-toggle"]  {
   display: none;
 }
 
-@media (max-width: 800px) {
-
+@media (max-width: 1200px) {
+  
   /* add mobile menu */
   label[for="menu-toggle"] {
     display: block;
@@ -592,7 +598,72 @@ label[for="menu-toggle"]  {
 
   #menu-toggle:checked ~ label[for="menu-toggle"]{
     margin-bottom: 81px;
+    transform: rotate(360deg);
+    transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
   }
+
+
+  /* style changes of navi on mobile */
+  nav {
+    margin: 0 auto 2em;
+    padding: 1em 2em;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    position: fixed;
+    background-color: rgba(18 18 18 / 95%)
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  nav li {
+    line-height: 3em;
+  }
+
+  nav a:hover {
+    background-color: inherit;
+    color: inherit;
+  }
+
+  nav a {
+    font-weight: bold;
+  }
+
+
+  /* style AcroLib link on mobile navi */
+  .beyond {
+    padding: 0.1em 0.2em;
+    margin: 3em -0.2em;
+    position: static;
+    display: inline-block;
+  }
+  
+  .beyond:hover {
+    background: none;
+    transition: none;
+  }
+  
+  .beyond a:hover { color: inherit; }
+ 
+
+  /* keep video in 16:9 ratio while change to 80% total page width */
+  .titlevideoscaler {
+    position: relative;
+    width: 90%;
+    height: 0;
+    padding-bottom: 50.625%;
+    margin: 0.5em auto 5em;
+  }
+}
+
+
+
+@media (max-width: 800px) {
 
   .profile {
     margin: 0 auto;
@@ -644,60 +715,6 @@ label[for="menu-toggle"]  {
     font-size: 14px;
   }
 
-  nav {
-    margin: 0 auto 2em;
-    padding: 1em 2em;
-    width: 100%;
-    font-size: 25px;
-    position: fixed;
-    background-color: rgba(18 18 18 / 87%)
-  }
-
-  nav ul {
-    display: block;
-  }
-
-  nav li {
-    line-height: 3em;
-  }
-
-  nav a:hover {
-    background-color: inherit;
-    color: inherit;
-  }
-
-  .beyond {
-    position: inherit;
-  }
-
-  nav a {
-    font-weight: bold;
-  }
-
-  .beyond {
-    display: none;
-    /*padding: 0;
-    margin: 1em 0em;
-    max-width: 175px;*/
-  }
-
-  .beyond:hover {
-    transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-  }
-
-  .beyond a {
-    font-weight: bold;
-    padding: 0.7em 1.5em;
-    border-radius: 0.5em;
-  }
-
-  .welcome {
-    margin: 16em 2.5em 3em;
-  }
-
   /* reposition title video for mobile */
 
   /* keep video in 16:9 ratio while change to 100% total page width */
@@ -719,6 +736,12 @@ label[for="menu-toggle"]  {
   .links {
     margin: 3em auto 2em;
   }
+
+  .links img {
+    padding: 0;
+    max-height: 60px;
+  }
+
 
   /* footer */
   footer {
