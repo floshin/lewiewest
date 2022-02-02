@@ -80,7 +80,7 @@ header h1 {
 
 
 /* rather make a new div and do it here div h2 */
-.welcome { margin: 12em 4em 3.5em; }
+.welcome { margin: 12em 5% 3.5em; }
 
 .welcome h1 { 
   font-size: 35px; 
@@ -741,6 +741,9 @@ label[for="menu-toggle"]  {
     padding: 0;
     max-height: 60px;
   }
+
+  /* style welcome message to fit into mobile page */
+  .welcome { margin: 12em 5% 2.5em; }
 
 
   /* footer */
