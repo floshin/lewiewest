@@ -132,3 +132,4 @@ TODO:
    maybe add carnival cinemas youtube videos. 
 * make two-fold grid out of gallery to let it scale 
   inbetween desktop and mobile menu 
+* make the rooke photos smaller 
