@@ -367,10 +367,6 @@ a > img:hover {
   -webkit-transition: opacity .25s ease-in-out;
 }
 
-.photographer {
-  font-size: 12px;
-  text-align: center;
-}
 
 .copyright {
   margin: 1em 2.5em;
@@ -510,6 +506,16 @@ img { max-width: 100%; }
 .gallery img { width: 100%; }
 .gallery p { padding: 0 1.5em 1.5em; text-align: left; }
 
+.gallery .photographer {
+  display: inline-flex;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  font-size: 12px;
+  padding: 1.5em 1.5em 1.5em;
+  margin: -0.4em 0 2em;
+}
+
 
 /* which colour/effect/deco for inline links? */
 a {
@@ -637,17 +643,22 @@ label[for="menu-toggle"]  {
 
   /* style AcroLib link on mobile navi */
   .beyond {
-    padding: 0.1em 0.2em;
-    margin: 3em -0.2em;
+    padding: 0 1em;
+    margin: 2em 1em;
     position: static;
     display: inline-block;
+  }
+
+  nav .beyond  {
+    line-height: 2.5em;
   }
   
   .beyond:hover {
     background: none;
     transition: none;
   }
-  
+
+  .beyond a { padding: 0; }
   .beyond a:hover { color: inherit; }
  
 
