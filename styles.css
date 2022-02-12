@@ -451,9 +451,6 @@ img { max-width: 100%; }
   max-width: 1050px;
 }
 
-.archive h2 {
-  text-align: center;
-}
 
 .archive ul {
   margin: 0;
@@ -474,18 +471,21 @@ img { max-width: 100%; }
   font-size: 14px;
   letter-spacing: 0.2em;
 }
+  .fluke {
+    color: black;
+    align-self: right;
+  }
 
-/* deactivate effect for gallery image links */
+
+/* Fading Border for Photo Archive Image links */
 .archive a > img:hover {
-  opacity: 1.0;
+  opacity: 1.0; /* deactivate opacity for gallery images */
   box-shadow: 0 0 0 2px rgba(255 255 255 / 80%);
   transition: .5s ease;
 }
+  .archive > ul img { transition: .5s ease; }
+  .archive > .gallery-selection img { max-width: 500px; }
 
-.archive img {
-  max-width: 500px;
-  transition: .5s ease;
-}
 
 .gallery { 
   max-width: 1050px; 

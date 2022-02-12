@@ -121,6 +121,9 @@
 * Display Acrolib button on mobile menu too 
 * The menu button now makes a role when clicking. :)
 
+[flosha] 12.02.22 ~1 hour 
+* Add, modify & style Fluke Cover as photo archive header
+
 
 TODO:
 * Fix Press bug 
