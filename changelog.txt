@@ -124,15 +124,20 @@
 [flosha] 12.02.22 ~1 hour 
 * Add, modify & style Fluke Cover as photo archive header
 
+[flosha] 16.02.22 ~2 hours
+* Re-use Fluke image as cover for press page 
+* Add Fluke as regular image to photo gallery with black font 
+* Seperate Out of Chaos and Out of Chaos Behind the Scenes 
+* Additional preview for 'Behind the Chaos' gallery 
+* Add all photographers known to Lewie image per image
+* Create/include smaller rooke images for performance
+
 
 TODO:
-* Fix Press bug 
 * fix padding on mobile 
-* make sure company logos look good on mobile;
-  if not possible otherwise, make simple grid or flexbox 
 * fix contact problem: padding ignores image height
 * backbone gallery behind the scenes video doesnt work;
    maybe add carnival cinemas youtube videos. 
 * make two-fold grid out of gallery to let it scale 
   inbetween desktop and mobile menu 
-* make the rooke photos smaller 
+
