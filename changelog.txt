@@ -132,6 +132,10 @@
 * Add all photographers known to Lewie image per image
 * Create/include smaller rooke images for performance
 
+[flosha] 17.02.22 ~10min
+* Uncommented AcroLib from all pages upon request for now
+* Reordered galleries in photo page as suggested by Lewie
+
 
 TODO:
 * fix padding on mobile 
